@@ -1,9 +1,18 @@
+$grey: grey;
+$light-grey: #f3f2f2;
+$white: #fff;
+
+
 .bg-secondary{
-  background: grey;
+  background: $grey;
+}
+
+.bg-light-secondary{
+  background: $light-grey;
 }
 
 .text-white{
-  color: white;
+  color: $white;
 }
 
 .margin-0{
@@ -71,4 +80,8 @@ li>div {
 
 .margin-2{
   margin: 2%;
+}
+
+.MuiInputBase-input{
+  text-align: end !important;
 }

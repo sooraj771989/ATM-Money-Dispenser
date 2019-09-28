@@ -72,7 +72,7 @@ class ATMComponent extends React.Component {
       }
 
        return (
-          <div className="mt-4 padding-2">
+          <div className="mt-4 padding-2 bg-light-secondary">
         <Grid container spacing={3}>
          
         <Grid item xs={6}>
@@ -101,7 +101,7 @@ class ATMComponent extends React.Component {
           {this.state.dispensedNotes.length !== 0 && <Paper className="bg-secondary">
               <h4 className="text-left margin-2">You will get the following amount</h4>
               <List>{dispensedNotesContent}</List>
-              <h4 className="text-left">Total notes dispensed: {totalNotes}</h4>
+              <h4 className="text-left margin-2">Total notes dispensed: {totalNotes}</h4>
             </Paper>}
 
         </Grid>

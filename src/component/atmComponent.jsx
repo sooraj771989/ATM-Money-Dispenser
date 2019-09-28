@@ -40,12 +40,10 @@ class ATMComponent extends React.Component {
         <Grid container spacing={3}>
          
         <Grid item xs={6}>
-          <Paper>
-             <div>Welcome to ATM</div>
+          <Paper className="padding-2">
+             <div className="padding-2"><h2>Welcome to ATM</h2></div>
              <form onSubmit={this.handleSubmit}>
                <div className="padding-10">
-              
-
              <TextField
             id="standard-multiline-flexible"
             label="Enter the Amount"
@@ -70,7 +68,12 @@ class ATMComponent extends React.Component {
           </Paper>
         </Grid>
         <Grid item xs={6}>
-          <Paper>xs=6</Paper>
+          <Paper>
+
+          <div className="padding-2"><h4 style={{textAlign: 'left'}}>You will get the following</h4></div>
+
+
+          </Paper>
         </Grid>
          
       </Grid>

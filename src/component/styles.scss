@@ -1,0 +1,62 @@
+.bg-secondary{
+  background: grey;
+}
+
+.text-white{
+  color: white;
+}
+
+.margin-0{
+  margin: 0em;
+}
+
+.padding-2{
+  padding: 2%;
+}
+
+.padding-10{
+  padding:10%;
+}
+
+.mt-4{
+  margin-top: 4%;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+
+.btn {
+  width:90%;
+  margin-bottom: 2% !important;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+button, select {
+  text-transform: none;
+}
+
+.input-field{
+  width: 100%;
+  margin: 1%;
+}
